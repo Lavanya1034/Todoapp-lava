@@ -1,0 +1,45 @@
+.form-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height:450px;
+    gap: 20px;
+    background-color:whitesmoke;
+    padding: 0 10px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 4px 4px rgb(199, 195, 195,0.25);
+   
+  }
+  .form>h1{
+    color: blue;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 40px;
+  }
+  .form>h3{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .labelEdit{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: -15px;
+  }
+
+  .form>input:focus{
+    background-color: rgb(207, 236, 250);
+  }
+
+  #sub{
+    width:30%;
+  }
+  

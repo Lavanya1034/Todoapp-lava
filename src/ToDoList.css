@@ -1,0 +1,39 @@
+
+.outer{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+ 
+}
+.inner{
+    
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    margin-top: 50px;
+    width:60%;
+    gap:10px;
+    border-color: black;
+    background-color: whitesmoke;
+    box-shadow: 1px 5px 1px 5px rgb(235, 227, 227); 
+
+}
+.detailed-btn{
+    margin-left: 30%;
+}
+
+#heading{
+    color: blue;
+    margin-bottom: 40px;
+}
+#form-inp{
+    display: flex;
+    margin-bottom: 30px;
+    gap:20px;
+}
+#inp{
+    width:80%;
+}

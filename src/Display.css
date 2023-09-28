@@ -1,0 +1,19 @@
+.listSpa{
+    text-align: left;
+}
+.labelHead{
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+.displayLabels{
+    display:flex;
+    align-items: center;
+}
+
+
+.labelDate{
+    display: flex;
+    flex-direction: column;
+}
